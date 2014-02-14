@@ -10,7 +10,7 @@ end;
 architecture BEH of MUX21 is
 begin
 	with S select
-		X<= A when "0",
-		B when "1",
+		X<= A when '0',
+		B when '1',
 		'0' when OTHERS;
 end BEH;
